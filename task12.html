@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 12</title>
+    <style>
+        table{
+    
+            background-color: #771e44;
+            color: white;
+            padding: 10px 30px 10px 30px ;
+           
+        }
+        .button{
+            width: 100%;
+            height: 30px;
+            font-weight: bold;
+        }
+        body{
+            padding:30px;
+            background-color: rgb(147, 42, 83);
+        }
+        div{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" placeholder="your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" placeholder="your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="no">Phone Number:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="no">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender">
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="oth">Other:</label>
+                        <input type="radio" id="oth" name="gender"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="language">Language:</label></td>
+                    <td>
+                        <select name="language" id="language">
+                            <option value="nolang">Select language</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="bengali">Bengali</option>
+                            <option value="tamil">Tamil</option>
+                            <option value="telugu">Telugu</option>
+                            <option value="urdu">Urdu</option>
+                            <option value="gujarati">Gujarati</option>
+                            <option value="marathi">Marathi</option>
+                            <option value="kannada">Kannada</option>
+                            <option value="malayalam">Malayalam</option>
+                            <option value="odia">Odia</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zip">Zip Code:</label></td>
+                    <td>
+                        <input type="number" id="zip">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="about">About:</label>
+                    </td>
+                    <td>
+                        <textarea name="About" id="about" cols="20" rows="2" placeholder="Write about yourself..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Register" class="button">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

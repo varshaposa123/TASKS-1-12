@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vertical Navigation Bar</title>
+  <style>
+    body {
+      background-color: #f4f000;
+    }
+
+    #container {
+      display: flex;
+      background-color:  #f4f000;
+
+    }
+
+    #navbar {
+      width: 200px;
+      background-color:  #f4f000;
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding-top: 60px;
+      background-color:  #f4f000;
+
+    }
+
+    #navbar ul li a {
+      display: block;
+      color: #000;
+      padding: 5px;
+      text-decoration: none;
+      background-color: white;
+      border-right: 20px solid black;
+      width: 80%;
+    }
+    #navbar li{
+      padding-bottom: 10px;
+    }
+
+    #navbar ul li a:hover {
+      background-color: #555;
+      color: white;
+    }
+    h1{
+      font-family: sans-serif;
+      font-weight:800;
+    }
+    p{
+      font-family: serif;
+      font-weight: 600;
+    }
+
+    #content {
+      flex: 1;
+      padding: 20px 20px 20px 25px;
+      color: rgb(103, 0, 101);
+      font-weight: 600;
+    }
+    .hr{
+      padding: 10px 0px;
+    }
+  </style>
+</head>
+
+<body align="left">
+  <div id="container">
+    <div id="navbar">
+      <ul>
+        <li><a href="#">Home page</a></li>
+        <li><a href="#">Musings</a></li>
+        <li><a href="#">My town</a></li>
+        <li><a href="#">Links</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h1>My first styled sheet</h1>
+      <p>
+        Welcome to my styled page!
+        <br>
+        <div>
+        It lacks images,but at least it has style .And it</div>
+        <div>has links, even if they dont go anywhere....</div>
+        <br>
+        <div>
+        There should be more here,but I dont know </div>
+        <div>what yet</div>
+        <div class="hr">
+        <hr></div>
+        <i>Made <sub>5</sub> April 2004<br> by myself.</i>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

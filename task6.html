@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6</title>
+    <style>
+        .firsttable,
+        td,
+        th {
+            border-radius: 10px;
+            background-color: #78C7C7;
+            border-spacing: 1px;
+            padding: 1px;
+            border: 1.3px solid black
+        }
+
+        .secondtable {
+            /* border-collapse: collapse; */
+            border: none;
+            width: 300px;
+            height: 150px;
+            border-spacing: 15px;
+
+
+        }
+
+        .secondtable td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border: 3px solid rgb(137, 190, 102);
+            background-color: transparent;
+            border-spacing: 50px;
+            padding: none;
+        }
+
+        .one {
+            border-radius: 10px;
+        }
+
+        .two {
+            border-radius: 20px;
+        }
+
+        .three {
+            border-radius: 3px;
+        }
+
+        .circle {
+            border-top-left-radius: 50% 50%;
+            border-top-right-radius: 50% 50%;
+            border-bottom-left-radius: 50% 50%;
+            border-bottom-right-radius: 50% 50%;
+        }
+
+        .shape {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <table width="60%" height="0" border="1" class="firsttable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br>
+    <div align="center">
+        <table class="secondtable">
+            <tr>
+                <td class="one">
+
+                </td>
+                <td class="one"></td>
+                <td class="two"></td>
+            </tr>
+            <tr>
+                <td class="one"></td>
+                <td class="three"></td>
+                <td class="two"></td>
+            </tr>
+            <tr>
+                <td class="circle"></td>
+                <td class="three"></td>
+                <td class="shape"></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>

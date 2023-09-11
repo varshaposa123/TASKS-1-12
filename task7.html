@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vertical Navigation Bar</title>
+    <style>
+        .horizontal-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            padding: 14px 14px 14px 0px;
+            background-color: rgb(212, 210, 210);
+        }
+
+        .horizontal-nav ul::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .horizontal-nav li {
+            color: rgb(48, 9, 243);
+            float: left;
+            /* display: block; */
+            text-align: center;
+        }
+
+        .horizontal-nav a {
+            text-decoration: none;
+            padding: 14px 16px;
+            background-color: rgb(212, 210, 210);
+            border-right: 1px solid rgb(48, 9, 243);
+
+        }
+
+        .horizontal-nav a:hover {
+            background-color: rgb(151, 150, 149);
+            color: white;
+        }
+
+        .vertical-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px 0px 0px 0px;
+            width: 200px;
+           
+        }
+
+        .vertical-nav li a {
+            display: block;
+            color: rgb(48, 9, 243);
+            padding: 8px 16px;
+            text-decoration: none;
+            background-color: #87CEEB;
+        }
+
+        .vertical-nav li a:hover {
+            background-color: #FFA500;
+            color: white;
+        }
+    </style>
+</head>
+
+<body align="left">
+    <div class="horizontal-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+        </ul>
+    </div>
+    <div class="vertical-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Bootstrap</a></li>
+
+        </ul>
+    </div>
+
+</body>
+
+</html>
